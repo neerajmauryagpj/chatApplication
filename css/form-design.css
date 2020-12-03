@@ -1,0 +1,114 @@
+*{
+	font-family: cursive;
+  }
+body,html{
+			height: 100%;
+			margin: 0;
+			background: #7F7FD5;
+	       	background: -webkit-linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5);
+			background: linear-gradient(to left, #86A8E9,  #91EAE7,#7F7FD3);
+}
+.form-section{
+	border-radius: 150px;
+	background-color: green;
+	background: linear-gradient(to right, #91AAE4, #86A8E7, #7F7FD5);
+}
+
+.form-input-section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.mobile{
+	min-height: 150px;
+	width: 100%;
+	/* border:1px solid; */
+}
+.message_img{
+	height: 400px;
+	width:400px;
+	margin: auto;
+}
+.user-logo{
+	height:60px;
+	width:100%;
+	/* border:1px solid;	 */
+}
+.img{
+	min-height: 80px;
+	width: 80px;
+	margin:auto;
+}
+.welcome p{
+	height:40px;
+	width:100%;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.input-div{
+	padding-bottom: 25px;
+}
+.form-input{
+	height:40px;
+	width:100%;
+	outline-style: none;
+	background-color: transparent;
+	color: white;
+	font-size: 16px;
+	border-radius: 15px;
+	border:none;
+	border-bottom: 2px solid white;
+	text-align: center;
+}
+.form-submit{
+	height:40px;
+	width:100%;
+	opacity: 0.5;
+	outline-style: none;
+	color: white;
+	font-size: 16px;
+	border-radius: 15px;
+	border:none;
+	border-bottom: 2px solid;
+	text-align: center;
+	cursor: pointer;
+	margin-bottom: 15px;
+}
+::placeholder{
+	color:white;
+	opacity: 0.5;
+}
+.forget-pass{
+	height:40px;
+	width:100%;
+	color: white;
+}
+.checkbox{
+	float:left;
+	cursor: default;
+}
+.forget{
+	float:right;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	opacity: 0.5;
+}
+.create-account{
+	height:40px;
+	width:100%;
+	text-align: center;
+	font-size: 18px;
+}
+span{
+	color: white;
+	opacity: 0.7;
+	margin-top: 15px;
+}

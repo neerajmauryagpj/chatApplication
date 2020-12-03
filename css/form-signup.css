@@ -1,0 +1,104 @@
+*{
+	
+	
+  }
+body,html{
+		height: 100%;
+		margin: 0;
+		background: #7F7FD5;
+    	background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    	background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+}
+label{
+	color: 	white;
+	font-size: 	18px;
+}
+.form-section{
+	border-radius: 15px;
+	background: linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5);
+}
+.form-input-section{
+	/* background: chartreuse; */
+}
+.welcome{
+	height:40px;
+	width:80%;
+	color: rgb(255, 255, 255);
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	margin: auto;
+	font-family: cursive;
+}
+.form-group{
+	padding-bottom: 0px;
+}
+.form-input{
+	height:40px;
+	width:80%;
+	outline-style: none;
+	background-color: transparent;
+	color: white;
+	font-size: 16px;
+	border-radius: 5px;
+	border:none;
+	border: 1px solid white;
+	padding-left: 10px;
+}
+.form-input option{
+	color: skyblue;
+	background:#f1f1f1;
+}
+.form-submit{
+	height:40px;
+	width:80%;
+	//opacity: 0.5;
+	outline-style: none;
+	color: white;
+	font-size: 16px;
+	border-radius: 5px;
+	border:none;
+	background:blue;
+	background: -webkit-linear-gradient(right,rgba(0,0,0,0.7),rgba(0,0,155,1),rgba(0,0,155,0.5));
+	text-align: center;
+	cursor: pointer;
+	margin-bottom: 15px;
+}
+.form-submit:hover{
+	background: -webkit-linear-gradient(left,rgba(0,0,0,0.7),rgba(0,0,155,1),rgba(0,0,155,0.5));
+}
+::placeholder{
+	color:white;
+	opacity: 0.5;
+}
+/* .forget-pass{
+	height:40px;
+	width:80%;
+	color: white;
+}
+.checkbox{
+	float:left;
+	cursor: default;
+} */
+/* .forget{
+	float:right;
+} */
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	opacity: 0.5;
+}
+.create-account{
+	height:40px;
+	width:80%;
+	text-align: center;
+	font-size: 18px;
+}
+
+span{
+	color: white;
+	opacity: 0.7;
+	margin-top: 15px;
+} 

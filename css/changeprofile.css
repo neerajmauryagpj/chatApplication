@@ -1,0 +1,49 @@
+.top{
+   min-height:200px;
+    //background:red;
+   min-width:200px;
+}
+.bottom{
+   margin:0px auto;
+   text-align:center;
+   background:red;
+   margin-top:20px;
+   margin:0px auto;
+}
+.profileImage{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    margin:5px;
+    border:1px solid white;
+}
+.change_profile{
+    background:rgb(1, 161, 1);
+    cursor:pointer;
+    padding:10px;
+    color:white;
+    border-radius:5px;
+    box-shadow:2px 2px 10px grey;
+    /* border: 1px solid rgb(36, 226, 118); */
+    transition: 0.2s ease-in-out;
+}
+.change_profile:hover{
+    box-shadow:1px 1px 5px green;
+    background:green;
+}
+.input_file{
+    display:none;
+}
+p{
+    color:blue;
+    cursor:pointer;
+    text-decoration: underline;
+}
+.profile-container{
+    height :100vh;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    border-radius:15px;
+}
+#msg{
+    color: limegreen;
+}

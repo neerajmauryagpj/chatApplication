@@ -1,0 +1,32 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    background: #7F7FD5;
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+}
+
+.user_img {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.user_info {
+    padding: 30px;
+    font-size: larger;
+    font-family: cursive;
+    color: aliceblue;
+    font-size: x-large;
+}
+
+.friend-list {
+    border: 1px solid;
+}
+
+.friend_btn {
+    color: aliceblue;
+    background-color: #7F7FD5;
+}
